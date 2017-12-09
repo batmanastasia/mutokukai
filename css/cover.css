@@ -67,6 +67,10 @@ body {
 }
 
 .masthead-brand {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  font-family: 'Alegreya Sans SC', sans-serif ;
   margin-bottom: 0;
 }
 
