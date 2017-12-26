@@ -154,8 +154,6 @@ strong.j {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-
-
 }
 
 .ot {
@@ -185,4 +183,31 @@ strong.j {
 .card-text {
     text-align: center;
 
+}
+
+.ftable {
+
+}
+
+.container-grey {
+    height: 90px;
+    background: #080c2a ;
+}
+
+.copy {
+    padding: 20px;
+}
+.ng-binding {
+    font: 20px  'Evolventa', sans-serif;
+    font-weight: 500;
+    color:#b6c4d8;
+
+}
+.chrow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
