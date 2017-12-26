@@ -1,6 +1,15 @@
 body {
+    font: 16px 'Evolventa', sans-serif;
+}
+
+header {
     font: 16px 'Alegreya Sans SC', sans-serif;
 }
+
+main {
+    background: url("Tree.png");
+}
+
 
 .navbar-brand {
     font-weight: 300;
@@ -34,12 +43,17 @@ body {
 .MUPhoto {
     width 400px;
     height: 400px;
+    float: left;
+    margin: 20px 20px 0px 20px;
 
 }
 
 .cont {
-    display: block;
-    width: auto;
+    /*display: inline-block;*/
+    width: 90%;
+    border: #b6c4d8 solid 15px;
+    margin-top: 50px;
+    height: 390px;
 }
 
 .contain {
@@ -55,8 +69,95 @@ aside {
 }
 
 .hueta {
+    width:65%;
+    float: left;
     font-family: Evolventa;
     font-size: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+strong.j {
+    font-size: 24px;
 }
 
 
+.text_container {
+
+    padding-right:10px;
+    padding-left:10px;
+    margin-right:auto;
+    margin-left:auto}
+}
+
+.autor {
+    font-family: Evolventa;
+    font-size: 30px;
+
+}
+
+.huet {
+    width: 65%;
+    float: left;
+    font-family: Evolventa;
+    font-size: 32px;
+    color: #b6c4d8;
+    text-shadow: 1px 1px #464a4e;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.plusborders {
+    border: #2a2f4a solid 15px;
+    height: 318px;
+    z-index: 1;
+}
+
+.cardimg {
+    float: contour;
+    width: 290px;
+    margin-left: 15px;
+    margin-bottom: -303px;
+    z-index: 2;
+}
+
+.cardimgt {
+    float: contour;
+    width: 250px;
+    margin-left: 50px;
+    margin-bottom: -303px;
+    z-index: 2;
+}
+
+.row {
+    align-content: center;
+    flex-wrap:wrap;
+    width:80%;
+    float:none;
+    margin:15px 50px 10% 10%;
+    display: inline-block;
+}
+
+.bgim {
+
+}
+
+.list_group_item {
+    position:relative;
+    display:block;
+    padding:.75rem 1.25rem;
+    margin-bottom:-1px;
+    background-color:#fff;}
+
+.ot {
+    margin-left: 10px;
+}
+
+.our {
+    display: block;
+    margin-top: 80px;
+    font: 50px 'Evolventa', sans-serif;
+    color: #2a2f4a;
+    text-shadow: 2px 2px #b6c4d8;
+    font-weight: 700;
+}
