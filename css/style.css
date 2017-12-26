@@ -7,7 +7,9 @@ header {
 }
 
 main {
-    background: url("Tree.png");
+    background-image: url("../Tree.png");
+    background-attachment: scroll;
+    background-size: 100%;
 }
 
 
@@ -145,9 +147,16 @@ strong.j {
 .list_group_item {
     position:relative;
     display:block;
-    padding:.75rem 1.25rem;
+    padding:5px 20px;
     margin-bottom:-1px;
-    background-color:#fff;}
+    color: #2a2f4a;
+    background-color:#b6c4d8;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+
+}
 
 .ot {
     margin-left: 10px;
@@ -160,4 +169,20 @@ strong.j {
     color: #2a2f4a;
     text-shadow: 2px 2px #b6c4d8;
     font-weight: 700;
+}
+
+.card-body {
+    color: #2a2f4a;
+    background-color:#b6c4d8;
+}
+
+.card-title {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px #464a4e;
+}
+.card-text {
+    text-align: center;
+
 }
