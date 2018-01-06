@@ -10,6 +10,7 @@ main {
     background-image: url("../Tree.png");
     background-attachment: scroll;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -46,12 +47,14 @@ main {
     width 400px;
     height: 400px;
     float: left;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 20px 3px 20px;
+    float:left;
+    margin-top: -40px;
 
 }
 
 .cont {
-    /*display: inline-block;*/
+    display: inline-block;
     width: 90%;
     border: #b6c4d8 solid 15px;
     margin-top: 50px;
@@ -71,12 +74,12 @@ aside {
 }
 
 .hueta {
-    width:65%;
-    float: left;
+     width:95%;
     font-family: Evolventa;
     font-size: 20px;
-    padding-top: 40px;
-    padding-left: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    max-height: 300px;
 }
 
 strong.j {
@@ -85,12 +88,22 @@ strong.j {
 
 
 .text_container {
-
+    /*width: 90%;
+    float: left;
     padding-right:10px;
     padding-left:10px;
     margin-right:auto;
-    margin-left:auto}
+    margin-left:auto*/
 }
+
+
+.text_cont {
+    padding-right:10px;
+    padding-left:10px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
 
 .autor {
     font-family: Evolventa;
@@ -99,14 +112,16 @@ strong.j {
 }
 
 .huet {
-    width: 65%;
-    float: left;
+    /*width: 100%;*/
+    /*float: left;*/
     font-family: Evolventa;
     font-size: 32px;
     color: #b6c4d8;
     text-shadow: 1px 1px #464a4e;
-    padding-top: 40px;
-    padding-left: 40px;
+    margin-top: 30px;
+
+    /*padding-top: 40px;
+    padding-left: 40px;*/
 }
 
 .plusborders {
@@ -134,7 +149,7 @@ strong.j {
 .row {
     align-content: center;
     flex-wrap:wrap;
-    width:80%;
+    /*width:80%;*/
     float:none;
     margin:15px 50px 10% 10%;
     display: inline-block;
@@ -157,12 +172,16 @@ strong.j {
 }
 
 .ot {
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.shadow {
+    box-shadow: -10px 20px 0px 0px #2a2f4a;
 }
 
 .our {
     display: block;
-    margin-top: 80px;
+    margin-top: 150px;
     font: 50px 'Evolventa', sans-serif;
     color: #2a2f4a;
     text-shadow: 2px 2px #b6c4d8;
@@ -249,4 +268,19 @@ div.container p {
 div.container {
     text-align: center;
     vertical-align: middle;
+}
+
+.arr {
+    width: 100%;
+    height: auto;
+}
+
+.st {
+    height: auto;
+    margin: auto;
+}
+@media (min-width: 1066px) {
+
+
+
 }
