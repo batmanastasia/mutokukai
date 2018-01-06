@@ -181,7 +181,7 @@ strong.j {
 
 .our {
     display: block;
-    margin-top: 150px;
+    margin-top: 100px;
     font: 50px 'Evolventa', sans-serif;
     color: #2a2f4a;
     text-shadow: 2px 2px #b6c4d8;
@@ -212,7 +212,7 @@ strong.j {
 }
 .card-text {
     text-align: center;
-
+    font-size: 18px;
 }
 
 .ftable {
@@ -279,8 +279,8 @@ div.container {
     height: auto;
     margin: auto;
 }
-@media (min-width: 1066px) {
 
-
-
+.map {
+    margin-left: 6%;
+    margin-top: 20px;
 }
