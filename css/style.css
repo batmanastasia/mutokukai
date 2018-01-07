@@ -2,7 +2,6 @@
     transition: all .2s;
 }
 
-
 body {
     font: 16px 'Evolventa', sans-serif;
     max-width: 1300px;
@@ -23,7 +22,6 @@ main {
     background-repeat: no-repeat;
 }
 
-
 .navbar-brand {
     font-weight: 300;
     font-size: 26px;
@@ -31,7 +29,7 @@ main {
 
 .banner-container {
     padding: 0;
-   }
+}
 
 .banner {
     position: relative;
@@ -53,12 +51,12 @@ main {
     border-left: 0;
     border-color: #b6c4d8;
 }
+
 .MUPhoto {
-    width 400px;
+    width: 400px;
     height: 400px;
     float: left;
     margin: 20px 20px 3px 20px;
-    float:left;
     margin-top: -40px;
 
 }
@@ -84,7 +82,7 @@ aside {
 }
 
 .hueta {
-     width:95%;
+    width: 95%;
     font-family: Evolventa;
     font-size: 20px;
     margin-top: 40px;
@@ -96,7 +94,6 @@ strong.j {
     font-size: 24px;
 }
 
-
 .text_container {
     /*width: 90%;
     float: left;
@@ -106,14 +103,12 @@ strong.j {
     margin-left:auto*/
 }
 
-
 .text_cont {
-    padding-right:10px;
-    padding-left:10px;
-    margin-right:auto;
-    margin-left:auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
-
 
 .autor {
     font-family: Evolventa;
@@ -159,7 +154,7 @@ strong.j {
 .row {
     position: center;
     align-content: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     /*width:80%;*/
     /*float:none;*/
     /*margin:15px 50px 10% 10%;*/
@@ -167,14 +162,13 @@ strong.j {
     display: inline-block;
 }
 
-
 .list_group_item {
-    position:relative;
-    display:block;
-    padding:5px 20px;
-    margin-bottom:-1px;
+    position: relative;
+    display: block;
+    padding: 5px 20px;
+    margin-bottom: -1px;
     color: #2a2f4a;
-    background-color:#b6c4d8;
+    background-color: #b6c4d8;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -185,7 +179,7 @@ strong.j {
 }
 
 .shadow {
-    box-shadow: -10px 20px 0px 0px #2a2f4a;
+    box-shadow: -10px 20px 0 0 #2a2f4a;
 }
 
 .our {
@@ -210,7 +204,7 @@ strong.j {
 
 .card-body {
     color: #2a2f4a;
-    background-color:#b6c4d8;
+    background-color: #b6c4d8;
 }
 
 .card-title {
@@ -219,6 +213,7 @@ strong.j {
     text-align: center;
     text-shadow: 1px 1px #464a4e;
 }
+
 .card-text {
     text-align: center;
     font-size: 18px;
@@ -230,18 +225,20 @@ strong.j {
 
 .container-grey {
     height: 90px;
-    background: #080c2a ;
+    background: #080c2a;
 }
 
 .copy {
     padding: 20px;
 }
+
 .ng-binding {
-    font: 20px  'Evolventa', sans-serif;
+    font: 20px 'Evolventa', sans-serif;
     font-weight: 500;
-    color:#b6c4d8;
+    color: #b6c4d8;
 
 }
+
 .chrow {
     display: -ms-flexbox;
     display: flex;
@@ -251,10 +248,10 @@ strong.j {
     margin-left: -15px;
 
 }
+
 .col-sm-4 {
     background: #2a2f4a;
     border: white solid 4px;
-
 
 }
 
@@ -265,7 +262,7 @@ strong.j {
 }
 
 div.container p {
-    font: 20px  'Evolventa', sans-serif;
+    font: 20px 'Evolventa', sans-serif;
     font-weight: 700;
     color: white;
     text-align: center;
@@ -279,25 +276,21 @@ div.container {
     vertical-align: middle;
 }
 
-
-
-
 .map {
     margin-left: 6%;
     margin-top: 20px;
 }
 
-@media  only screen and (max-width: 1000px){
+@media only screen and (max-width: 1000px) {
 
     .hueta {
         width: 95%;
         float: left;
-        padding-right:10px;
-        padding-left:10px;
-        margin-right:auto;
-        margin-left:auto;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
     }
-
 
     .our {
 
@@ -305,10 +298,9 @@ div.container {
 
     }
 
-
 }
 
-@media  only screen and (max-width: 822px) {
+@media only screen and (max-width: 822px) {
     .our {
 
         margin-top: 370px;
@@ -316,17 +308,19 @@ div.container {
     }
 }
 
-@media  only screen and (max-width: 645px) {
+@media only screen and (max-width: 645px) {
     .our {
 
         margin-top: 400px;
 
     }
+
     .hueta {
         width: 100%;
+    }
 }
 
-@media  only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .our {
 
         margin-top: 550px;
@@ -338,16 +332,13 @@ div.container {
     }
 }
 
-@media  only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1300px) {
     .nav_cont {
 
-        width:1300px;
-        padding-right:15px;
-        padding-left:15px;
-        margin-right:auto;
-        margin-left:auto}
-}
-
-@media  handheld {
-
+        width: 1300px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+    }
 }
