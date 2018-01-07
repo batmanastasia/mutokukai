@@ -1,9 +1,19 @@
+* {
+    transition: all .2s;
+}
+
+
 body {
     font: 16px 'Evolventa', sans-serif;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 header {
     font: 16px 'Alegreya Sans SC', sans-serif;
+
 }
 
 main {
@@ -147,17 +157,16 @@ strong.j {
 }
 
 .row {
+    position: center;
     align-content: center;
     flex-wrap:wrap;
     /*width:80%;*/
-    float:none;
-    margin:15px 50px 10% 10%;
+    /*float:none;*/
+    /*margin:15px 50px 10% 10%;*/
+    margin-left: 10%;
     display: inline-block;
 }
 
-.bgim {
-
-}
 
 .list_group_item {
     position:relative;
@@ -181,7 +190,7 @@ strong.j {
 
 .our {
     display: block;
-    margin-top: 100px;
+    margin-top: 80px;
     font: 50px 'Evolventa', sans-serif;
     color: #2a2f4a;
     text-shadow: 2px 2px #b6c4d8;
@@ -190,8 +199,8 @@ strong.j {
 
 .our2 {
     display: block;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     font: 50px 'Evolventa', sans-serif;
     color: #2a2f4a;
     text-shadow: 2px 2px #b6c4d8;
@@ -270,17 +279,75 @@ div.container {
     vertical-align: middle;
 }
 
-.arr {
-    width: 100%;
-    height: auto;
-}
 
-.st {
-    height: auto;
-    margin: auto;
-}
+
 
 .map {
     margin-left: 6%;
     margin-top: 20px;
+}
+
+@media  only screen and (max-width: 1000px){
+
+    .hueta {
+        width: 95%;
+        float: left;
+        padding-right:10px;
+        padding-left:10px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+
+
+    .our {
+
+        margin-top: 330px;
+
+    }
+
+
+}
+
+@media  only screen and (max-width: 822px) {
+    .our {
+
+        margin-top: 370px;
+
+    }
+}
+
+@media  only screen and (max-width: 645px) {
+    .our {
+
+        margin-top: 400px;
+
+    }
+    .hueta {
+        width: 100%;
+}
+
+@media  only screen and (max-width: 600px) {
+    .our {
+
+        margin-top: 550px;
+
+    }
+
+    .hueta {
+        width: 100%;
+    }
+}
+
+@media  only screen and (min-width: 1300px) {
+    .nav_cont {
+
+        width:1300px;
+        padding-right:15px;
+        padding-left:15px;
+        margin-right:auto;
+        margin-left:auto}
+}
+
+@media  handheld {
+
 }
