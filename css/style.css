@@ -97,6 +97,65 @@ div p {
 
 }
 
+.our2 {
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font: 50px 'Evolventa', sans-serif;
+    color: #2a2f4a;
+    text-shadow: 2px 2px #b6c4d8;
+    font-weight: 700;
+}
+
+.chrow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+div.container p {
+    font: 20px 'Evolventa', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+
+
+}
+
+div.container {
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+div.container p {
+    font: 20px 'Evolventa', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    /*padding-top: 20px;*/
+
+}
+
+
+.col-sm-4 {
+    background: #2a2f4a;
+    border: white solid 4px;
+
+}
+
+.col-sm {
+    background: #b6c4d8;
+    border: white solid 4px;
+
+}
 .blue_border {
     width: 90%;
     border-left: 0;

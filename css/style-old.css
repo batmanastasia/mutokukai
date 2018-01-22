@@ -268,13 +268,27 @@ div.container p {
     text-align: center;
     vertical-align: middle;
     padding-top: 20px;
+    !important;
 
 }
 
 div.container {
     text-align: center;
     vertical-align: middle;
+    !important;
 }
+
+div.container p {
+    font: 20px 'Evolventa', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    !important;
+}
+
+
 
 .map {
     margin-left: 6%;
