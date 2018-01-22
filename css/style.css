@@ -119,36 +119,21 @@ div p {
 
 div.container p {
     font: 20px 'Evolventa', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     color: white;
     text-align: center;
     vertical-align: middle;
-    padding-top: 20px;
-
-
+    padding: 20px 0;
 }
 
 div.container {
     text-align: center;
     vertical-align: middle;
-
 }
-
-div.container p {
-    font: 20px 'Evolventa', sans-serif;
-    font-weight: 500;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    /*padding-top: 20px;*/
-
-}
-
 
 .col-sm-4 {
     background: #2a2f4a;
     border: white solid 4px;
-
 }
 
 .col-sm {
@@ -156,6 +141,7 @@ div.container p {
     border: white solid 4px;
 
 }
+
 .blue_border {
     width: 90%;
     border-left: 0;
@@ -168,6 +154,12 @@ div.container p {
     float: left;
     margin: 20px 20px 3px 20px;
     margin-top: -40px;
+
+}
+.map {
+    height: 300px;
+    width: 90%;
+    margin: 0 5%;
 
 }
 
