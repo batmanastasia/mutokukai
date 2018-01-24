@@ -117,6 +117,40 @@ div p {
 
 }
 
+.list_group_item {
+    position: relative;
+    display: block;
+    padding: 5px 20px;
+    margin-bottom: -1px;
+    color: #2a2f4a;
+    background-color: #b6c4d8;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+.card_body {
+    color: #2a2f4a;
+    background-color: #b6c4d8;
+    padding:1.25rem;
+    !important;
+}
+
+.card-title {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px #464a4e;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
+}
+
 div.container p {
     font: 20px 'Evolventa', sans-serif;
     font-weight: 500;
@@ -161,6 +195,75 @@ div.container {
     width: 90%;
     margin: 0 5%;
 
+}
+
+.our {
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font: 50px 'Evolventa', sans-serif;
+    color: #2a2f4a;
+    text-shadow: 2px 2px #b6c4d8;
+    font-weight: 700;
+
+}
+
+.shadow {
+
+
+
+
+    -webkit-box-shadow: 0px 21px 21px -14px rgba(20,28,69,0.48);
+    -moz-box-shadow: 0px 21px 21px -14px rgba(20,28,69,0.48);
+    box-shadow: 0px 21px 21px -14px rgba(20,28,69,0.48);
+
+    /*box-shadow: -10px 20px 0 0 #2a2f4a;*/
+}
+
+
+.row2 {
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    !important;
+}
+
+.plusborders {
+    border: #2a2f4a solid 15px;
+    height: 318px;
+    z-index: 1;
+}
+
+.cardimg {
+    float: contour;
+    width: 290px;
+    margin-left: 15px;
+    margin-bottom: -303px;
+    z-index: 2;
+}
+
+.cardimgt {
+    float: contour;
+    width: 250px;
+    margin-left: 50px;
+    margin-bottom: -303px;
+    z-index: 2;
+}
+
+.card{
+    position:relative;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    min-width:0;word-wrap:break-word;
+    background-clip:border-box;
+    border-radius:.25rem;
+    align-self: flex-end;
+    margin-bottom: 15px;
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
