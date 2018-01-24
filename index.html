@@ -8,6 +8,7 @@
     <meta name="author" content="">
 
     <title>Mutokukai Kharkiv</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQxdmqS97NKadK_fMFyI0LnsfKKM9-w0Y&iwloc=near"></script>
 
 
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/evolventa" type="text/css"/>
@@ -55,8 +56,94 @@
         <img src="static/Header2.jpg" class="header_mobile" alt="Responsive image">
     </div>
     <div class="main-info">
-        <div id="sensei">O Sensei</div>
-        <div id="instructors">Instructors</div>
+        <div id="sensei" class="sensei">
+            <div>
+                <div class="cont border-left-0">
+                    <div>
+                        <img src="static/MU.png" alt="" class="MUPhoto" style="float:left;margin-left: 3px;">
+                    </div>
+                    <div class="text_container">
+                        <p class="text_box"><strong class="j">Айкидо(яп.</strong> 合気道 <strong>)</strong> — современное
+                            японское боевое
+                            искусство, созданное Морихэем Уэсибой
+                            как синтез его исследований боевых искусств, философии и религиозных убеждений.
+                            Чаще всего айкидо переводят как «путь слияния с жизненной энергией» или «путь гармонизации
+                            духа».
+                            Целью О-Сэнсэя было создание такого искусства, практики которого смогли бы защитить от
+                            травм не только себя, но и нападающего.
+                        </p>
+                    </div>
+                    <div class="morihey"><strong>Морихей Уэсиба</strong></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="sensei2">
+            <div>
+                <img src="static/MU.png" alt="" class="MUPhoto2" >
+            </div>
+            <div class="cont2 blue_border2">
+                <div class="morihey2"><strong>Морихей Уэсиба</strong></div>
+            </div>
+            <div class="text_container2">
+                <div class="text_box2"><strong class="j">Айкидо(яп.</strong> 合気道 <strong>)</strong> — современное
+                    японское боевое
+                    искусство, созданное Морихэем Уэсибой
+                    как синтез его исследований боевых искусств, философии и религиозных убеждений.
+                    Чаще всего айкидо переводят как «путь слияния с жизненной энергией» или «путь гармонизации
+                    духа».
+                    Целью О-Сэнсэя было создание такого искусства, практики которого смогли бы защитить от
+                    травм не только себя, но и нападающего.
+                </div>
+            </div>
+        </div>
+        <div id="instructors">
+            <div id="our" class="text-center our ">Наши тренеры</div>
+            <div class="row2 ">
+                <div class="card " style="width: 20rem;">
+                    <img class="cardimg" src="static/Andrey.png" alt="Card image cap">
+                    <div class="plusborders">
+                    </div>
+                    <div class="card_body ">
+                        <h2 class="card-title">Андрей Колтун</h2>
+                        <p class="card-text">3-й дан Айкидо Айкикай</p>
+                    </div>
+                    <ul class="list-group list-group-flush shadow">
+                        <li class="list_group_item">+38(066)630-24-24</li>
+                        <li class="list_group_item">+38(097)946-41-39</li>
+                        <li class="list_group_item">samuray_studio@mail.ru</li>
+                    </ul>
+                </div>
+                <div class="card" style="width: 20.02rem;">
+                    <img class="cardimgt" src="static/Tymfear.png" alt="Card image cap">
+                    <div class="plusborders">
+                    </div>
+                    <div class="card_body">
+                        <h2 class="card-title">Тимур Даудов</h2>
+                        <p class="card-text">2-й дан Айкидо Айкикай</p>
+                    </div>
+                    <ul class="list-group list-group-flush shadow">
+                        <li class="list_group_item">+38(066)212-90-26</li>
+                        <li class="list_group_item">tymfear@gmail.com</li>
+                        <li class="list_group_item"><br></li>
+                    </ul>
+                </div>
+                <div class="card " style="width: 20rem;">
+                    <img class="cardimg" src="static/Hikolay.png" alt="Card image cap">
+                    <div class="plusborders">
+                    </div>
+                    <div class="card_body ">
+                        <h2 class="card-title">Николай Луговой</h2>
+                        <p class="card-text">1-й кю Айкидо Айкикай</p>
+                    </div>
+                    <ul class="list-group list-group-flush shadow">
+                        <li class="list_group_item">+38(095)259-77-08</li>
+                        <li class="list_group_item">varan_com@ukr.net</li>
+                        <li class="list_group_item"><br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div id="schedulediv">
             <p id="schedule" class="text-center our2 text_container ">Расписание</p>
             <div class="container">
@@ -65,7 +152,7 @@
                         <p>ул.Пушкинская</p>
                     </div>
                     <div class="col-sm">
-                        <p>Пн, Ср, Пт, Сб <br>6:30-8:15</p>
+                        <p>Пн, Ср, Пт, Сб<br>6:30-8:15</p>
                     </div>
                     <div class="col-sm">
                         <p>Взрослые</p>
@@ -78,10 +165,10 @@
             <div class="container">
                 <div class="chrow">
                     <div class="col-sm-4">
-                        <p>м.Спортивная <br> ул.Лебединская, 3</p>
+                        <p>м.Спортивная<br>ул.Лебединская, 3</p>
                     </div>
                     <div class="col-sm">
-                        <p>Пн, Ср, Пт <br> 17:00-18:00</p>
+                        <p>Пн, Ср, Пт<br>17:00-18:00</p>
                     </div>
                     <div class="col-sm">
                         <p>Взрослые/Дети</p>
@@ -94,10 +181,10 @@
             <div class="container">
                 <div class="chrow">
                     <div class="col-sm-4">
-                        <p>м.Университет <br> ул.Сумская, 39</p>
+                        <p>м.Университет<br>ул.Сумская, 37</p>
                     </div>
                     <div class="col-sm">
-                        <p>Пн, Ср, Пт <br>18:30-20:00</p>
+                        <p>Пн, Ср, Пт<br>18:30-20:00</p>
                     </div>
                     <div class="col-sm">
                         <p>Взрослые/Дети</p>
@@ -110,10 +197,10 @@
             <div class="container">
                 <div class="chrow">
                     <div class="col-sm-4">
-                        <p>м.Научная <br> ул.Космическая, 23 <br> "Fitline" </p>
+                        <p>м.Научная<br>ул.Космическая, 23<br>"Fitline"</p>
                     </div>
                     <div class="col-sm">
-                        <p>Пн, Ср, Пт <br> 18:00-19:00</p>
+                        <p>Пн, Ср, Пт<br>18:00-19:00</p>
                     </div>
                     <div class="col-sm">
                         <p>Дети</p>
@@ -126,10 +213,10 @@
             <div class="container">
                 <div class="chrow">
                     <div class="col-sm-4">
-                        <p>пгт.Песочин <br> Админ.здание<br> "НАДИЯ"</p>
+                        <p>пгт.Песочин<br>Админ.здание<br>"НАДИЯ"</p>
                     </div>
                     <div class="col-sm">
-                        <p>Вт, Чт<br> 19:00-23:00 <br>Сб<br> 10:00-11:30</p>
+                        <p>Вт, Чт<br>19:00-23:00<br>Сб<br>10:00-11:30</p>
                     </div>
                     <div class="col-sm">
                         <p>Взрослые/Дети</p>
@@ -140,7 +227,8 @@
                 </div>
             </div>
         </div>
-        <div id="map">Map</div>
+        <div id="map" class="map">
+        </div>
     </div>
 </main>
 <footer>
@@ -156,5 +244,6 @@
 <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>');</script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/map.js"></script>
 </body>
 </html>
