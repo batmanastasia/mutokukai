@@ -359,6 +359,21 @@ strong.j {
     display: none;
 }
 
+.shc {
+    font: 20px 'Evolventa', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.linkclick {
+    color: #2a2f4a;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
     .bg_header {
