@@ -26,7 +26,7 @@ function initMap() {
     }
 
     addMarker({lat: 50.006675, lng: 36.248952},
-        getDescription('ул.Пушкинская, 79/7', 'Пн, Ср, Пт 6:30-8:15 <br> Cб 7:00-8:30'));
+        getDescription('ул.Пушкинская, 79', 'Пн, Ср, Пт 6:30-8:15 <br> Cб 7:00-8:30'));
     addMarker({lat: 49.980001, lng: 36.266240},
         getDescription('ул.Лебединская, 3', 'Пн, Ср, Пт 17:00-18:00'));
     addMarker({lat: 50.003213, lng: 36.233748},
