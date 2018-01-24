@@ -47,10 +47,10 @@ main {
 }
 
 .blue_border {
-    width: 90%;
-    border-left: 0;
-    border-color: #b6c4d8;
-}
+     width: 90%;
+     border-left: 0;
+     border-color: #b6c4d8;
+ }
 
 .MUPhoto {
     width: 400px;
