@@ -1,37 +1,41 @@
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('header').outerHeight();
+(function () {
+    let didScroll;
+    let lastScrollTop = 0;
 
-$(window).scroll(function(event){
-    didScroll = true;
-});
+    const delta = 5;
+    const navbarHeight = $('header').outerHeight();
 
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
+    $(window).scroll(function (event) {
+        didScroll = true;
+    });
 
-function hasScrolled() {
-    var st = $(this).scrollTop();
-
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
-
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('header').removeClass('nav_down').addClass('nav_up');
-    } else {
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('header').removeClass('nav_up').addClass('nav_down');
+    setInterval(function () {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
         }
-    }
+    }, 250);
 
-    lastScrollTop = st;
-}
+    function hasScrolled() {
+        const st = $(this).scrollTop();
+
+        // Make sure they scroll more than delta
+        if (Math.abs(lastScrollTop - st) <= delta) {
+            return;
+        }
+
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll Down
+            $('header').removeClass('nav_down').addClass('nav_up');
+        } else {
+            // Scroll Up
+            if (st + $(window).height() < $(document).height()) {
+                $('header').removeClass('nav_up').addClass('nav_down');
+            }
+        }
+
+        lastScrollTop = st;
+    }
+})();
