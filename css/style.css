@@ -30,10 +30,10 @@ header {
 }
 
 main {
-    /*background-image: url("../static/Tree.png");
+    background-image: url("../static/Tree.png");
     background-attachment: scroll;
     background-size: 100%;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
 }
 
 
@@ -84,15 +84,22 @@ main {
 .containerf {
     height: 90px;
     background: #080c2a;
-    text-align:center;
+    text-align:right;
     vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
 }
 
 .copy {
     font: 20px 'Evolventa', sans-serif;
     font-weight: 500;
     color: #b6c4d8;
-    padding-top: 15px;
+    margin-right: 20px;
+    max-width: 50%;
+    padding-top: 10px;
+
     /*в жопу этот текст,пусть так и остается,задолбал*/
 }
 div p {
@@ -383,7 +390,14 @@ strong.j {
 
 }
 
+.icon_bottom {
+    width: 50px;
+}
 
+.ss {
+    margin: auto 20px;
+
+}
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
@@ -398,7 +412,7 @@ strong.j {
     }
 
     .containerf {
-        height: 50px;
+        height: 60px;
         background: #080c2a;
     }
 
@@ -432,6 +446,10 @@ strong.j {
         padding-top: 20px;
     }
 
+    main {
+        background: none;
+    }
+
 }
 
 /*Small devices (landscape phones, less than 768px)*/
@@ -447,7 +465,7 @@ strong.j {
     }
 
     .containerf {
-        height: 50px;
+        height: 60px;
         background: #080c2a;
     }
     .sensei {
