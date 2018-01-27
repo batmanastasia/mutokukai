@@ -236,8 +236,8 @@ div.container {
 
 .cardimg {
     float: contour;
-    width: 293px;
-    margin-left: 15px;
+    width: 296px;
+    margin-left: 12px;
     margin-bottom: -306px;
     z-index: 2;
 }
@@ -448,6 +448,18 @@ strong.j {
         background: none;
     }
 
+    .col-sm-4 {
+        margin-top: 25px;
+        background: #2a2f4a;
+        border: honeydew solid 1px;
+
+    }
+
+    .col-sm {
+        background: #b6c4d8;
+        border: honeydew solid 1px;
+
+    }
 }
 
 /*Small devices (landscape phones, less than 768px)*/
@@ -485,13 +497,13 @@ strong.j {
 
     .col-sm-4 {
         background: #2a2f4a;
-        border: white solid 2px;
+        border: white solid 1px;
 
     }
 
     .col-sm {
         background: #b6c4d8;
-        border: white solid 2px;
+        border: white solid 1px;
 
     }
 
@@ -519,13 +531,13 @@ strong.j {
 
     .col-sm-4 {
         background: #2a2f4a;
-        border: white solid 2px;
+        border: white solid 1px;
 
     }
 
     .col-sm {
         background: #b6c4d8;
-        border: white solid 2px;
+        border: white solid 1px;
 
     }
 
